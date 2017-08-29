@@ -1,0 +1,31 @@
+1. git add test.php       ---working directory
+2. git status            ---暂存区
+3.git commit - m "提交描述内容"   ---- git repository
+
+
+
+1.设置用户名
+git config -- global user.name'******'
+2.设置用户名邮箱
+git config -- global user.email'******@.com'
+3.在文件夹内初始化git
+cd test
+git init 
+git push :本地提交到远程
+创建文件touch xx.php
+
+vi xx.php
+
+
+modified xxx.php 修改仓库文件
+
+pwd:当前位置
+
+mkdir test :新建文件夹
+
+删除文件
+1.rm test.php
+2.从仓库中删除
+git rm test.php
+3.提交操作
+git commit-m '提交描述内容'
